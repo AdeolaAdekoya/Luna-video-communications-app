@@ -100,6 +100,7 @@ document.getElementById('leave-btn').addEventListener('click', async () => {
     await client.leave()
     document.getElementById('user-streams').innerHTML = ''
     document.getElementById('footer').style.display = 'none'
+    document.getElementById('header-1').style.display = 'block'
     document.getElementById('join-btn').style.display = 'block'
 })
 
